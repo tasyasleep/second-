@@ -1,0 +1,11 @@
+body { display: block; 
+    margin: 15px;
+   }
+   .container { clear: both;
+       padding: 40px; }
+    .container img { float: left;
+    margin: 15px; }
+   .right img { float: right;
+margin-top: 5px; 
+width: 200px;
+height: 100px; }

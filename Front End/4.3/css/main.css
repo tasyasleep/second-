@@ -1,0 +1,28 @@
+.dropdown { position: relative;
+display: block;
+background-color: gray;
+color: white;
+width: 400px;
+height: 450px;
+left: -370px;
+z-index: 2;
+cursor: pointer;
+transition: all 1s ease; }
+.dropdown:hover { 
+        left: 0; }
+ .dropdown p { writing-mode: vertical-rl;
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    right: 5px;
+    color: white;
+    transition: text-shadow 1s linear; }
+.dropdown:hover p { opacity: 0;
+color: gray;
+transition: 1s; }
+ul {list-style: none; }
+ul {cursor: pointer;
+    z-index: 4;
+    transition: all .5s ease; }
+li:hover { color: yellow;}
+

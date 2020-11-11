@@ -1,0 +1,12 @@
+blockquote p { color: blue; }
+footer { color: green; }
+cite { color: red;} 
+li [href^='https://'] { color: red; }
+li:nth-of-type(4) { background-color: green; }
+ul + p { font-size:26px; }
+
+h3:first-of-type { color: pink; }
+#greycol { color: grey; }
+.text-box div:nth-of-type(2) { color: red; }
+.text-box p:nth-of-type(3) { color: green; }
+.text-box .yellow {color: yellow; }

@@ -1,0 +1,25 @@
+body {
+    margin: 20px;
+}
+.container3 { height: 500px;
+    width: 500px;
+    display: block;
+}
+.square2 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+.square2 {
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: square2;
+    animation-timing-function: cubic-bezier(1, 1, 1, 1);
+}
+@keyframes square2 {
+    0% { margin-left: 0px; margin-top: 0px; background-color: red; }
+    25% { margin-left: 0px; margin-top: 300px; background-color: blue; }
+    50% { margin-left: 300px; margin-top: 300px; background-color: green; } 
+    75% { margin-left: 300px; margin-top: 0px; background-color:yellow; }
+    100% { margin-left: 0px; margin-top: 0px; background-color: red; }
+}
